@@ -1,0 +1,18 @@
+{
+  "name": "good-react-components",
+  "author": "Marin Aeschbach <marin.aeschbach@gmail.ch>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "demo"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "start": "lerna run start"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2",
+    "microbundle": "^0.11.0"
+  }
+}
